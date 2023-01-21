@@ -1,0 +1,33 @@
+.root {
+	padding: 40px;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 3em;
+}
+
+.searchBlock {
+	display: inline-flex;
+	border: 1px #f3f3f3 solid;
+	border-radius: 10px;
+	height: 100%;
+	padding: 0 15px;
+}
+
+.searchInput {
+	margin-left: 15px;
+	border: 0px;
+	width: 250px;
+	height: 45px;
+}
+
+.sneakersList {
+	display: flex;
+	gap: 40px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: start;
+}
