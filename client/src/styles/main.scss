@@ -1,0 +1,24 @@
+@import "@styles/variables.scss";
+@import "./typography.scss";
+
+html {
+	font-size: calc($step * 2);
+	font-family: $font-family-regular;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+
+	width: 100%;
+	height: 100%;
+	// overflow-x: hidden;
+	font-kerning: normal;
+
+	text-align: left;
+	text-size-adjust: 100%;
+	text-rendering: optimizeLegibility;
+
+	background-color: $background-color-default;
+}

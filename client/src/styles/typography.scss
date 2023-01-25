@@ -1,0 +1,21 @@
+@import "./variables.scss";
+
+@font-face {
+	font-family: $font-family-light;
+	src: url("../../public/fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+	font-family: $font-family-regular;
+	src: url("../../public/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+	font-family: $font-family-medium;
+	src: url("../../public/fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+	font-family: $font-family-bold;
+	src: url("../../public/fonts/Roboto-Bold.ttf");
+}
